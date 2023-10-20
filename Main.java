@@ -27,9 +27,9 @@ public class Main {
 
         System.out.println("---------------------------------");
         System.out.println(a.toString());
-        System.out.format("Total Distance: %.1f\n", a.getTotalMiles());
-        System.out.format("Average Distance: %.1f\n", sumDistance/stops);
-        System.out.format("Average PPG: %.1f\n", sumPricePerGal/stops);
+        System.out.format("Total Distance: %.1f mi\n", a.getTotalMiles());
+        System.out.format("Average Distance: %.1f mi\n", sumDistance/stops);
+        System.out.format("Average PPG: $%.1f\n", sumPricePerGal/stops);
 
     }
 }
