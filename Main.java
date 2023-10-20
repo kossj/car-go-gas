@@ -1,8 +1,35 @@
+import java.util.Random;
+
 public class Main {
     public static void main(String[] args) {
         Car a = new Car(12.5, 12.5, 24);
-        System.out.println(a.toString());
+        Random r = new Random();
 
-        a.drive(400);
+        int stops = 0;
+        double sumPricePerGal = 0;
+        double sumDistance = 0;
+
+        while (a.getMoney() >= 50) {
+            double distance = r.nextDouble(50, a.getMilesToEmpty());
+            double price_per_gal = r.nextDouble(2.49, 4.29);
+
+            a.drive(distance);
+            System.out.println();
+
+            double gallons_to_buy = r.nextDouble(50 / a.getMPG(), a.getTankCapacity() - a.getCurrentGas());
+            a.fillGas(gallons_to_buy, price_per_gal);
+            System.out.println();
+
+            sumPricePerGal += price_per_gal;
+            sumDistance += distance;
+            stops++;
+        }
+
+        System.out.println("---------------------------------");
+        System.out.println(a.toString());
+        System.out.format("Total Distance: %.1f\n", a.getTotalMiles());
+        System.out.format("Average Distance: %.1f\n", sumDistance/stops);
+        System.out.format("Average PPG: %.1f\n", sumPricePerGal/stops);
+
     }
 }
