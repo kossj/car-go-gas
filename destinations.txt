@@ -1,17 +1,37 @@
-12.5 gallon tank, 24mpg if not otherwise stated
+*12.5 gallon tank, 24mpg if not otherwise stated*
 
 Departing from HTX
 -----
-
 With 200 dollars...
 I could travel ~800 miles, which could get me 99% of the way to Albequerqe, NM!
+Stops: 8
+Total Distance: 965.7 mi
+Average Distance: 120.7 mi
+Average PPG: $3.31
+
 
 With 300 dollars...
 I could travel ~1300 miles, which could get me to Custer, SD!
+Stops: 12
+Total Distance: 1412.7 mi
+Average Distance: 117.7 mi
+Average PPG: $3.58
+
 
 With 400 dollars...
 A 20 gallon tank, and 28mpg...
 I could travel ~2000 miles, which could get me to Calgary, Canada!
+Stops: 13
+Total Distance: 2102.5 mi
+Average Distance: 161.7 mi
+Average PPG: $3.32
+
 
 With 500 dollars...
-I could travel ~2200 miles, which could get me from Houston to San Francisco!
+I could travel ~2500 miles, which could get me from Houston to San Francisco with room to wander!
+Stops: 22
+Total Distance: 2503.8 mi
+Average Distance: 113.8 mi
+Average PPG: $3.33
+-----
+Note: Some of the distances don't quite line up, this is because I took the rough average of multiple trips for me destinations.
